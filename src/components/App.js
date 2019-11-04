@@ -1,12 +1,15 @@
 import React from "react";
 import KeySound from "./keySound";
+import { Container } from "react-bootstrap"
 
 class App extends React.Component {
   render() {
-    return (
-      <div>
+    return (<div>
+<Container>
         <KeySound />
-      </div>
+      </Container>
+    </div>
+      
     );
   }
 }
